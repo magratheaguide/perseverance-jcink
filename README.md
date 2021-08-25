@@ -1,2 +1,7 @@
-# theme-perseverance
-Complete Jcink theme for written RPGs.
+# Perseverance
+
+A complete [Jcink](https://jcink.com) theme for written RPGs.
+
+## Install
+
+(TODO: Installation instructions)
