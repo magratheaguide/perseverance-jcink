@@ -1,0 +1,75 @@
+/*
+==========
+PERSEVERANCE
+v0.0.0
+A Magrathea project, coded by Daine
+-----
+Magrathea:
+    - https://magrathea.guide
+Daine:
+    - https://thewildmage.dev
+    - Discord: daine#1078
+==========
+*/
+
+/*
+-----
+SETTINGS/SIZES
+-----
+*/
+
+:root {
+    /* ----- GAPS */
+    --gap-200: 6px;
+    --gap-300: var(--size-300);
+    --gap-400: var(--size-400);
+    --gap-500: var(--size-500);
+    --gap-600: var(--size-600);
+    --gap-700: var(--size-700);
+    --gap-800: var(--size-800);
+    --gap-900: var(--size-900);
+
+    /* ----- LINE LENGTHS */
+    --line-length-min: 45ch;
+    --line-length-max: 65ch;
+
+    /* ----- SIZES */
+    --size-scale: 1.2;
+
+    /* text sizes */
+    --size-300: calc(var(--size-400) / var(--size-scale));
+    --size-400: 1rem;
+    --size-500: calc(var(--size-400) * var(--size-scale));
+    --size-600: calc(var(--size-500) * var(--size-scale));
+    --size-700: calc(var(--size-600) * var(--size-scale));
+    --size-800: calc(var(--size-700) * var(--size-scale));
+    --size-900: calc(var(--size-800) * var(--size-scale));
+
+    /* heading sizes */
+    --size-h1: var(--size-900);
+    --size-h2: var(--size-800);
+    --size-h3: var(--size-700);
+    --size-h4: var(--size-600);
+    --size-h5: var(--size-500);
+    --size-h6: var(--size-400);
+}
+
+@supports (font-size: clamp(1rem, 1rem + 0.25vw, 2rem)) {
+    :root {
+        --size-400: clamp(1rem, 1rem + 0.25vw, 2rem);
+    }
+}
+
+/*
+-----
+BASE/BASE
+-----
+*/
+
+body {
+    /* font-family: var(--font-family-body); */
+    font-size: var(--size-400);
+    line-height: 1.5;
+    margin: 0;
+    min-block-size: 100vh;
+}
