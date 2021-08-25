@@ -36,6 +36,7 @@ SETTINGS/SIZES
     /* ----- SIZES */
     --size-scale: 1.2;
 
+    /* text sizes */
     --size-300: calc(var(--size-400) / var(--size-scale));
     --size-400: 1rem;
     --size-500: calc(var(--size-400) * var(--size-scale));
@@ -44,6 +45,7 @@ SETTINGS/SIZES
     --size-800: calc(var(--size-700) * var(--size-scale));
     --size-900: calc(var(--size-800) * var(--size-scale));
 
+    /* heading sizes */
     --size-h1: var(--size-900);
     --size-h2: var(--size-800);
     --size-h3: var(--size-700);
