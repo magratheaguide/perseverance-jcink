@@ -10,6 +10,6 @@ A demo of the most recent iteration of this theme can be seen on the [Magrathea 
 
 What might you find in this README later on? (Also known as "The List of Things Not to Forget to Consider for the README.")
 
--   More detailed info on what's included, including screenshots
--   Installation instructions
--   How to contribute
+- More detailed info on what's included, including screenshots
+- Installation instructions
+- How to contribute
